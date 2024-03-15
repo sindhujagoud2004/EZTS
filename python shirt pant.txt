@@ -1,0 +1,33 @@
+print("welcome user")
+a= input("what are you looking for?")
+if (a=="shirt"):
+    b=int(input("enter the size"))
+    if(b==30):
+      c=input("enter the colour")
+      if(c=="pink"):
+       print("shirt in 30 and pink is avaliable")
+      else:
+          print ("colour is not available")
+    else:
+        print("size is not available")
+elif a=="pant":
+    b=int(input("enter the size"))
+    if(b==32):
+        c=input("enter the colour")
+        if(c=="green"):
+            print("pant in 32 and green is avaliable ")
+        else:
+            print("colour is not availablr")
+    elif(b==48):
+        c=input("enter the colour")
+        if(b=="green"):
+            print("pant in 48 and green is available")
+        else:
+            print("colour is not available")
+    else:
+        print("size is not available")
+else:
+    print("product not available")
+   
+   
+ 
